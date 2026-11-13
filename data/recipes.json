@@ -1,0 +1,123 @@
+
+[
+  {
+    "name": "Aloo Tomato Curry",
+    "emoji": "🍛",
+    "time": "20 minutes",
+    "diet": "Vegetarian",
+    "description": "A comforting potato and tomato curry made with everyday ingredients.",
+    "ingredients": ["potato", "tomato", "onion", "oil", "salt", "turmeric"],
+    "steps": [
+      "Wash, peel and chop the potatoes.",
+      "Heat oil in a pan and sauté chopped onion.",
+      "Add tomatoes, salt and turmeric. Cook until soft.",
+      "Add potatoes and a little water.",
+      "Cover and cook until the potatoes are tender."
+    ]
+  },
+  {
+    "name": "Vegetable Fried Rice",
+    "emoji": "🍚",
+    "time": "15 minutes",
+    "diet": "Vegan",
+    "description": "A quick and delicious way to use leftover rice and vegetables.",
+    "ingredients": ["rice", "onion", "carrot", "peas", "oil", "salt"],
+    "steps": [
+      "Cook rice beforehand or use leftover rice.",
+      "Heat oil in a pan and sauté chopped onion.",
+      "Add available vegetables and cook until slightly tender.",
+      "Add rice, salt and pepper.",
+      "Mix well and stir-fry for a few minutes."
+    ]
+  },
+  {
+    "name": "Masala Omelette",
+    "emoji": "🍳",
+    "time": "10 minutes",
+    "diet": "High Protein",
+    "description": "A quick, protein-rich breakfast with onions and tomatoes.",
+    "ingredients": ["egg", "onion", "tomato", "salt", "oil", "chilli"],
+    "steps": [
+      "Beat eggs in a bowl.",
+      "Add chopped onion, tomato, salt and chilli.",
+      "Heat oil in a pan.",
+      "Pour in the egg mixture.",
+      "Cook both sides until completely set."
+    ]
+  },
+  {
+    "name": "Simple Tomato Rice",
+    "emoji": "🥘",
+    "time": "20 minutes",
+    "diet": "Vegan",
+    "description": "A tangy rice dish made with tomatoes and simple spices.",
+    "ingredients": ["rice", "tomato", "onion", "oil", "salt", "turmeric"],
+    "steps": [
+      "Cook rice and keep it aside.",
+      "Sauté chopped onion in a pan.",
+      "Add chopped tomatoes, salt and turmeric.",
+      "Cook until the tomatoes become soft.",
+      "Mix in the cooked rice and serve warm."
+    ]
+  },
+  {
+    "name": "Besan Chilla",
+    "emoji": "🥞",
+    "time": "15 minutes",
+    "diet": "High Protein",
+    "description": "A savoury gram-flour pancake that is simple and filling.",
+    "ingredients": ["besan", "onion", "tomato", "salt", "water", "oil"],
+    "steps": [
+      "Add besan to a bowl and gradually mix in water.",
+      "Add chopped onion, tomato and salt.",
+      "Make a smooth, pourable batter.",
+      "Heat a lightly oiled pan.",
+      "Spread the batter and cook both sides until golden."
+    ]
+  },
+  {
+    "name": "Garlic Potato Stir Fry",
+    "emoji": "🥔",
+    "time": "15 minutes",
+    "diet": "Vegan",
+    "description": "Crispy, seasoned potatoes for a quick side dish.",
+    "ingredients": ["potato", "garlic", "oil", "salt", "chilli"],
+    "steps": [
+      "Cut potatoes into small cubes.",
+      "Heat oil in a pan and add chopped garlic.",
+      "Add potatoes, salt and chilli.",
+      "Cook on medium heat, stirring occasionally.",
+      "Cook until golden and tender."
+    ]
+  },
+  {
+    "name": "Vegetable Poha",
+    "emoji": "🥣",
+    "time": "15 minutes",
+    "diet": "Vegan",
+    "description": "A light Indian breakfast using flattened rice and vegetables.",
+    "ingredients": ["poha", "onion", "potato", "peas", "oil", "salt"],
+    "steps": [
+      "Rinse poha briefly and drain.",
+      "Heat oil and sauté onion.",
+      "Add potato and peas and cook until tender.",
+      "Add poha, salt and turmeric.",
+      "Mix gently and cook for a few minutes."
+    ]
+  },
+  {
+    "name": "Paneer Bhurji",
+    "emoji": "🧀",
+    "time": "15 minutes",
+    "diet": "High Protein",
+    "description": "A protein-rich Indian dish made with crumbled paneer.",
+    "ingredients": ["paneer", "onion", "tomato", "oil", "salt", "turmeric"],
+    "steps": [
+      "Crumble paneer into small pieces.",
+      "Heat oil and sauté chopped onion.",
+      "Add tomatoes, salt and turmeric.",
+      "Cook until soft, then add paneer.",
+      "Mix and cook for a few minutes."
+    ]
+  }
+]

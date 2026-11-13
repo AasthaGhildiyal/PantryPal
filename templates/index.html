@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PantryPal | Your ingredients, your next meal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="brand" href="/">🥑 PantryPal</a>
+    <span class="nav-tag">Cook smarter · Waste less</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">YOUR KITCHEN, REIMAGINED</span>
+        <h1>Good food starts<br>with <em>what you have.</em></h1>
+        <p>Tell us what's in your kitchen. We'll help you turn everyday ingredients into something delicious.</p>
+      </div>
+      <div class="hero-art">🥗</div>
+    </section>
+
+    <section class="search-panel">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">LET'S GET COOKING</span>
+          <h2>What's in your pantry?</h2>
+          <p>Add ingredients you already have, separated by commas.</p>
+        </div>
+        <span class="step-number">01 / 02</span>
+      </div>
+
+      <textarea id="ingredients" placeholder="e.g. potatoes, onion, tomato, rice, eggs..."></textarea>
+
+      <div class="quick-add">
+        <span>Try adding:</span>
+        <button class="chip" data-ingredient="Potato">Potato +</button>
+        <button class="chip" data-ingredient="Onion">Onion +</button>
+        <button class="chip" data-ingredient="Tomato">Tomato +</button>
+        <button class="chip" data-ingredient="Eggs">Eggs +</button>
+        <button class="chip" data-ingredient="Rice">Rice +</button>
+      </div>
+
+      <div class="preferences">
+        <label for="diet">Dietary preference</label>
+        <select id="diet">
+          <option value="Any">No preference</option>
+          <option value="Vegetarian">Vegetarian</option>
+          <option value="Vegan">Vegan</option>
+          <option value="High Protein">High protein</option>
+        </select>
+      </div>
+
+      <button id="findBtn" class="primary-btn" onclick="findRecipes()">
+        Find my recipes <span>→</span>
+      </button>
+      <p class="small-note">Made for your ingredients, your budget and your kitchen.</p>
+    </section>
+
+    <section id="results" class="results-section">
+      <div class="results-heading">
+        <div>
+          <span class="eyebrow">YOUR PERSONAL RECIPE IDEAS</span>
+          <h2>Something delicious awaits.</h2>
+        </div>
+      </div>
+      <div id="recipeGrid" class="recipe-grid">
+        <div class="empty-state">
+          <span>🍋</span>
+          <p>Your recipe ideas will appear here.</p>
+          <small>Enter a few ingredients above to get started.</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="bottom-note">
+      <span>🌱</span>
+      <div>
+        <h3>Love your leftovers.</h3>
+        <p>Small kitchen choices can make a big difference. Use what you have and waste less.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>Made with care by PantryPal · Your ingredients. Your next meal.</footer>
+  <script src="/static/script.js"></script>
+</body>
+</html>
